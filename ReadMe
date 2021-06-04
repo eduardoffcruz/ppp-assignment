@@ -1,28 +1,41 @@
-==========================
-	O enunciado fornecido não é necessariamente completo.
-O comportamento do programa nas situações não previstas no enunciado deve 
-ser escolhido por cada estudante, de entre as várias hipóteses razoáveis.
-As escolhas feitas devem ser referidas explicitamente: não é aceitável ter de
-ir ver qual o comportamento do programa nesses casos para saber qual a escolha 
-feita. No cabeçalho do programa principal devem estar listadas as escolhas feitas.
-	As situações de erro devem ser intercetadas e recuperadas ou, pelo menos,
-assinaladas, se a recuperação não for viável ou for complexa.
-	Os dados de entrada devem fazer sentido, conter pelo menos 100 entidades,
-e os ficheiros que os contenham devem ser incluídos na submissão final do trabalho.
-	O interface com a estrutura de dados usada deve estar bem definido.
-	A implementação da estrutura de dados deve ser feita num ficheiro fonte autónomo,
-sendo os dados que a suportam declarados como variáveis static nesse ficheiro, para não poderem ser usadas no programa principal.
-	Os dados de entrada devem ser lidos de um ficheiro de texto, com uma entidade por linha,
-e os diversos atributos de uma entidade separados pelo carater '\t'.
+========================ASSIGNMENT DESCRIPTION==========================
+O enunciado fornecido não é necessariamente completo.
+	O comportamento do programa nas situações não previstas no 
+enunciado deve ser escolhido por cada estudante, de entre as várias
+hipóteses razoáveis. As escolhas feitas devem ser referidas 
+explicitamente: não é aceitável ter de ir ver qual o comportamento
+do programa nesses casos para saber qual a escolha feita. No
+cabeçalho do programa principal devem estar listadas as escolhas
+feitas.
+	As situações de erro devem ser intercetadas e recuperadas
+ou, pelo menos, assinaladas, se a recuperação não for viável ou
+for complexa.
+	Os dados de entrada devem fazer sentido, conter pelo menos
+100 entidades, e os ficheiros que os contenham devem ser incluídos
+na submissão final do trabalho.
+	O interface com a estrutura de dados usada deve estar bem
+definido.
+	A implementação da estrutura de dados deve ser feita num
+ficheiro fonte autónomo, sendo os dados que a suportam declarados
+como variáveis static nesse ficheiro, para não poderem ser usadas
+no programa principal.
+	Os dados de entrada devem ser lidos de um ficheiro de texto,
+com uma entidade por linha, e os diversos atributos de uma entidade 
+separados pelo carater '\t'.
 	O nome do ficheiro de entrada deve ser pedido ao utilizador.
-	O programa deve analisar a situação do pagamento de quotas dos sócios de um clube de montanhismo,
-relativos a um ano, considerando-se que não há pagamentos em atraso de anos anteriores. A quota anual são 50 euros.
-Há dois grupos de dados de entrada: Uma lista de sócios, e uma lista de pagamentos. O programa deve gerar duas listagens:
-uma lista de sócios com quotas em dia, indicando eventuais montantes a mais já pagos,
-que serão usados para as quotas do ano seguinte, e uma lista dos sócios com quotas em atraso,
+	O programa deve analisar a situação do pagamento de quotas
+dos sócios de um clube de montanhismo,
+relativos a um ano, considerando-se que não há pagamentos em atraso
+de anos anteriores. A quota anual são 50 euros. Há dois grupos de dados
+de entrada: Uma lista de sócios, e uma lista de pagamentos. O programa
+deve gerar duas listagens: uma lista de sócios com quotas em dia,
+indicando eventuais montantes a mais já pagos, que serão usados para as
+quotas do ano seguinte, e uma lista dos sócios com quotas em atraso,
 total ou parcialmente, indicando o valor em dívida.
-	O programa deve usar (uma ou mais) listas ligadas simples baseadas em gestão dinâmica de memória.
+	O programa deve usar (uma ou mais) listas ligadas simples
+baseadas em gestão dinâmica de memória.
 	O nome do ficheiro de saída deve ser pedido ao utilizador.
 	Os dados de saída devem ser escritos num ficheiro de texto,
-com uma entidade por linha, e os diversos atributos da entidade separados pelo carater '\t'.
-==========================
+com uma entidade por linha, e os diversos atributos da entidade
+separados pelo carater '\t'.
+===================================@2019===================================
